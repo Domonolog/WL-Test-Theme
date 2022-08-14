@@ -47,27 +47,21 @@ function cars_meta_box_html($post)
         <select id="car_fuel" name="car_fuel">
             <option value="">Не выбрано.</option>
             <option value="fuel-80"><?php if ($car_fuel == 'fuel-80') {
-                    echo 'selected';
                 } ?>Нормаль – АИ-80.
             </option>
             <option value="fuel-92"><?php if ($car_fuel == 'fuel-92') {
-                    echo 'selected';
                 } ?>Регуляр – АИ-92.
             </option>
             <option value="fuel-95"><?php if ($car_fuel == 'fuel-95') {
-                    echo 'selected';
                 } ?>Премиум – АИ-95.
             </option>
             <option value="fuel-95top"><?php if ($car_fuel == 'fuel-95top') {
-                    echo 'selected';
                 } ?>Супер – АИ-95+.
             </option>
             <option value="fuel-98"><?php if ($car_fuel == 'fuel-98') {
-                    echo 'selected';
                 } ?>Экстра – АИ-98.
             </option>
             <option value="fuel-100"><?php if ($car_fuel == 'fuel-100') {
-                    echo 'selected';
                 } ?>ЭКТО – АИ-100.
             </option>
         </select>
